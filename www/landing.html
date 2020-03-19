@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <script src="shared/jquery.js" type="text/javascript"></script>
+  <script src="shared/shiny.js" type="text/javascript"></script>
+  <link rel="stylesheet" type="text/css" href="shared/shiny.css"/>
+   <style media = "all">
+         body {
+            background-color: light-gray;
+         }
+ 	 div {
+             margin-left: 400px;
+	     width: 600px;
+	     #border: 3px solid #73AD21;
+	     align: right;
+	     #display: table;
+         }
+	 span{
+	     #border: 3px solid blue;
+	     padding: 10px;
+	     display:table-cell;
+	     align: right;
+	 }
+	 
+      </style>
+</head>
+
+<body>
+
+  <h1 align="center">Covid-React</h1>
+  <h2 align="center">Data Driven guidance for optimal resource management for your ICU</h2> 
+
+  <div align="left">
+    <span ><label>Access Key:</label><input type="password" id="access" name="access" value=""></span>
+    <span>
+      <input type="button" id="enter" value="enter" onclick="window.location.href = 'input.html';  "></input><br>
+      <p></p>
+      <input type="button" id="enter" value="request access"></input></span>
+  </div>
+    
+
+
+</body>
+</html>
