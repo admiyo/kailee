@@ -1,7 +1,7 @@
 FROM fedora:latest
 MAINTAINER Adam Young <adam@younglogic.com>
 
-RUN yum install -y R &&\
+RUN yum install -y R libxml2-devel &&\
     yum update -y &&\
     yum -y clean all
 
